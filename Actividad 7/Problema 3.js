@@ -1,12 +1,11 @@
 function checkWord(word)
 {
 
-    var wordLenght = word.length
-    var backwardWord = ""
-    for(var x = wordLenght - 1; x >= 0; x--)
+    let backwardWord = ""
+    for(let x = word.length - 1; x >= 0; x--)
     {
 
-        backwardWord+= word[x]
+        backwardWord += word[x]
 
     }
 
@@ -25,6 +24,6 @@ function checkWord(word)
 
 }
 
-var word = prompt("Ingrese la palabra:")
+let word = prompt("Ingrese la palabra:")
 
 checkWord(word)

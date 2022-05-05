@@ -9,7 +9,7 @@ function calcSum(numbers)
     for (var i = 0; i < n; i++)
     {
 
-        sum+= numbers[i]
+        sum += numbers[i]
 
     }
 
